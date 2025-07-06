@@ -1,0 +1,36 @@
+@import "tailwindcss";
+.hideScrollBar::-webkit-scrollbar{
+    display: none;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+body.dark input {
+  background-color: #222;
+  color: #fff;
+  border-color: #555;
+}
+
+body.dark .hover\:bg-gray-100:hover {
+  background-color: #333 !important;
+}
+
+body.dark .text-gray-500 {
+  color: #bbb !important;
+}
+
+body.dark .text-gray-600 {
+  color: #aaa !important;
+}
+
+body.dark .shadow-sm {
+  box-shadow: none !important;
+}
+
+body.dark button {
+  background-color: #333;
+  color: #fff;
+}
